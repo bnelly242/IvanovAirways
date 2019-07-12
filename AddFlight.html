@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>AddFlight</title>
+		<link type="text/css" rel="stylesheet" href="StyleSheet.css">
+	</head>
+	<body>
+		<div id ="header">
+			<h1 id = "title">Ivanov Airways</h1>
+		</div>
+		<form method="get" action="AddFlightForm.php" id="form">
+			<p>Enter information (some info such as flight # will be automatically generated): </br></br>Departure</p>
+			<input type="text" name="deptField" value="Enter">
+			</br>
+			<p>Destination</p>
+			<input type="text" name="destField" value="Enter">
+			</br>
+			<p>Date</p>
+			<input type="text" name="dateField" value="Enter">
+			</br>
+			<!--
+			I will have to make this into a php page if I continue with
+			the drop down tables below in order to access the database
+			-->
+			<p>Available Pilots</p>
+			<select name="availablePilots">
+					<option value="destination">pilot1</option>
+					<option value="departure">pilot2</option>
+					<option value="date">pilot3</option>
+			</select>
+			</br>
+			<p>Available Planes</p>
+			<select name="availablePlanes">
+					<option value="destination">plane1</option>
+					<option value="departure">plane2</option>
+					<option value="date">plane3</option>
+			</select>
+			</br>
+			<input type="submit" name="Submit" value="Submit">
+		</form>
+		</br>
+		<a href="Index.html" id="home">Home</a>
+		</br>
+		<a href="AdminPage.html" id="admin">Admin Home</a>
+		<div id = "footer">
+			<p>Copyrighted by Michael Nelson Technology</p>
+		</div>
+	</body>
+</html>

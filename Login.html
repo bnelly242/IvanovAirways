@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="StyleSheet.css">
+	</head>
+	<body>
+		<div id ="header">
+			<h1 id = "title">Ivanov Airways</h1>
+		</div>	
+		<form method="get" action="LoginForm.php" id="form">
+			<p>Username:
+				<input type="text" name="nameField" value="Enter username">
+			</p>
+			<p>Password:
+				<input type="text" name="passField" value="Enter password here">
+			</p>
+						<input type="submit" name="Submit" value="Submit">
+		</form>
+		<script type="text/javascript">
+		var name = nameField
+		var password = passField
+		if (name.equals("admin"))
+		{
+			if(password==1234)
+			{
+				//redirect to AdminPage
+			}
+		}
+		</script> 
+		</br>
+		</br>
+		<a href="Index.html" id="home">Home</a>
+		</br>
+		</br>
+		</br>
+		<a href="AdminPage.html" id="Options">Skip Login to be set up later</a>
+		<div id = "footer">
+			<p>Copyrighted by Michael Nelson Technology</p>
+		</div>
+	</body>
+</html>

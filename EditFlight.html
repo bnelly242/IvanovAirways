@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="StyleSheet.css">
+	</head>
+	<body>
+		<div id ="header">
+			<h1 id = "title">Ivanov Airways</h1>
+		</div>		<form method="get" action="EditFlightForm.php"  id="form">
+			<p>Complete Form:</p>
+			<p>Choose a flight</p>
+			<select name="column">
+					<option value="destination">flight1</option>
+					<option value="departure">flight2</option>
+					<option value="date">flight3</option>
+			</select>
+			</br>
+			<!--
+			I will have to edit this to use sql
+			to find all available flights to edit
+			-->
+			<p>What to edit</p>
+			<select name="column">
+					<option value="destination">Destination</option>
+					<option value="departure">Departure</option>
+					<option value="date">Date</option>
+			</select>
+			</br>
+			<p>New Info</p>
+			<input type="text" name="infoField" value="Enter">
+			</br>
+			</br>
+			<input type="submit" name="Submit" value="Submit">
+		</form>
+		</br>
+		<a href="Index.html" id="home">Home</a>
+		</br>
+		<a href="AdminPage.html" id="admin">Admin Home</a>
+		<div id = "footer">
+			<p>Copyrighted by Michael Nelson Technology</p>
+		</div>
+	</body>
+</html>

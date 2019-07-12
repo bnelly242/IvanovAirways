@@ -1,0 +1,55 @@
+body {
+	background-color: #cdcdce;
+}
+
+#Airplanepicture{
+	width: 500px;
+	height: 500px;
+	float: right;
+	margin-right: 150px;
+	margin-top: 80px;	
+}
+
+#intropar{
+	float: left;
+	margin-left: 50px;	
+	width: 400px;
+	margin-top: 80px;
+}
+
+#links1 li{
+	margin-top: 50px;
+}
+
+#form{
+	margin-top: 90px;
+	margin-left: 50px;
+}
+
+#header{
+	background-color: #000000;
+	height: 80px;
+	width: 100%;
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	color: #ffffff;
+}
+
+#footer{
+	background-color: #000000;
+	height: 50px;
+	position: absolute; 
+	bottom: 0px; 
+	left: 0px; 
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+}
+
+#menu{
+	margin-top:90px;
+}
+#title{
+	padding-left: 20px;
+}

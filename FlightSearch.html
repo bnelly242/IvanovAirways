@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="StyleSheet.css">
+	</head>
+	<body>
+		<div id ="header">
+			<h1 id = "title">Ivanov Airways</h1>
+		</div>		<form method="get" action="FlightSearchForm.php" id="form">
+			<p>Search by type or keyword:</p>
+			<input type="radio" name="searchBy" value="type" checked> Type<br>
+			<input type="radio" name="searchBy" value="keyword"> Keyword<br>
+			<!--I want this button to change what information can
+			be entered but am still trying to figure out the javascript for it-->
+			<select name="column">
+					<option value="destination">Destination</option>
+					<option value="departure">Departure</option>
+					<option value="date">Date</option>
+			</select>
+			</br>
+			</br>
+			<input type="text" name="nameField" value="Enter">
+			</br>
+			</br>
+			<input type="submit" name="Submit" value="Submit">
+		</form>
+		</br>
+		<a href="Index.html" id="home">Home</a>
+		<div id = "footer">
+			<p>Copyrighted by Michael Nelson Technology</p>
+		</div>
+	</body>
+</html>
